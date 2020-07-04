@@ -1,0 +1,44 @@
+.app_page {
+  margin: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+#left {
+  width: 40%;
+  overflow-y: scroll;
+}
+
+#right {
+  width: 60%;
+}
+
+.content {
+  height: 70vh;
+  margin-top: 5vh;
+}
+
+.chat-content {
+  height: 100%;
+}
+
+.chat-list-container {
+  padding: 15px;
+  padding-top: 0px;
+  height: 100%;
+  -webkit-box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+}
+
+.message-container {
+  height: 100%;
+}
+
+.list-li {
+  padding-bottom: 20px;
+}
+
+.list-li:hover {
+  background-color: lightgrey;
+}

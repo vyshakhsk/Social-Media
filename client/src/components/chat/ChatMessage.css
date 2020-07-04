@@ -1,0 +1,24 @@
+.message-wrapper {
+  height: 100%;
+}
+
+.message-container1 {
+  overflow-y: scroll;
+  height: 400px;
+}
+
+.message-typer {
+  height: 20%;
+}
+
+.message-right {
+  text-align: right;
+}
+
+.message-left {
+  text-align: left;
+}
+
+.message-list {
+  padding-right: 10px;
+}

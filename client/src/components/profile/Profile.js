@@ -61,7 +61,9 @@ const Profile = ({
                 </>
               </Fragment>
             )}
-          {auth.user._id !== profile.user._id &&
+          {auth.isAuthenticated &&
+            auth.loading === false &&
+            auth.user._id !== profile.user._id &&
             (profile.friendsList.filter((f) => {
               return auth.user._id === f.friendId;
             }).length > 0 ? (
